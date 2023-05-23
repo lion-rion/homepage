@@ -7,7 +7,7 @@ header {
   align-items: center; /* flexのの縦方向の中央揃え */
 }
 
-div {
+.top-nav-menu {
   font-size: 18px;
   font-weight: 600;
   width: 300px;
@@ -15,7 +15,26 @@ div {
   justify-content: space-around;
 }
 
-h1{
+h1 {
   font-size: 20px;
   font-weight: bold;
+}
+.main {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.main-child {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & img {
+    width: 200px;
+    border-radius: 50%;
+  }
+}
+
+.profile-text {
+  width: 300px;
 }
