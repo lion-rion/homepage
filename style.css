@@ -38,3 +38,20 @@ h1 {
 .profile-text {
   width: 300px;
 }
+
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 1px 2px 3px rgba(229, 229, 229, 0.5);
+}
+
+footer p {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
